@@ -1,0 +1,41 @@
+DeepL Translator is a neural machine translation service that was launched in September 2018 and is owned by Munich-based DeepL Corporation. The translating system was first developed within Linguee and launched as an independent entity, DeepL. It initially offered translations between five European languages and has since gradually expanded to support 28 languages. Its algorithm uses convolutional neural networks and an English pivot. It offers a paid subscription for additional features and access to its translation application programming interface (API).
+
+## Service
+
+### Translation Methodology
+
+The service uses a proprietary algorithm with convolutional neural networks (CNNs) that have been trained with the Linguee database. According to the developers, the service uses a newer improved architecture of neural networks, called transformer-deepl, which results in more natural translations than competing services. The translation is said to be generated using a supercomputer that reaches 6.3 petaflops and is operated in Spain with geothermal energy. In general, CNNs are slightly more suitable for long coherent word sequences, but they have so far not been used by the competition because of their weaknesses compared to recurrent neural networks. The weaknesses of DeepL are compensated for by supplemental techniques, some of which are publicly known.
+
+### Translator and Subscription
+
+The translator can be used for free with a limit of 1,000 characters per translation. Microsoft Word and PowerPoint files in Office Open XML file formats (.docx and .pptx) and PDF files can also be translated. It offers a paid subscription called DeepL Pro, which has been available since April 2019 and includes application programming interface access and a software plug-in for computer-assisted translation tools, including SDL Trados Studio. Unlike the free version, translated texts are stated to not be saved on the server; also, the character limit is removed. The monthly pricing model includes a set amount of text, with texts beyond that being calculated according to the number of characters.
+
+#### Supported Languages
+
+As of November 2023, the translation service supports the following languages:
+
+## History
+
+The translating system was first developed within Linguee by a team led by Chief Technology Officer Jake Kutyłowski (germanised spelling: Jake Kutylowski) in 2017. It was launched as DeepL Translator on 15 September 2018 and offered translations between English, German, French, Spanish, and Galician. At its launch, it claimed to have surpassed its competitors in blind tests and BLEU scores, including Google Translate, Amazon Translate, Microsoft Translator, and Facebook's translation feature. With the release of DeepL in 2018, Linguee's company name was changed to DeepL Corporation, and it is also financed by advertising on its sister site, linguee.com. Support for Portuguese and Russian was added on 10 January 2019. In May 2020, Jake Kutyłowski became the CEO of DeepL Corporation and restructured the company into a Societas Europaea in 2020. Translation software for Microsoft Windows and macOS was released in November 2023. Support for Chinese (simplified) and Japanese was added on 15 April 2021, and the company claimed to have surpassed the aforementioned competitors as well as Baidu and Youdao. Then, 11 more European languages were added in June 2022. On 30 March 2023, support for Indonesian and Turkish was added, and support for Ukrainian was added on 20 October 2023. By February 2024, the company reached a valuation of 3 billion euros and became the most valued startup company in Munich. At the end of the month, support for Korean and Norwegian (Bokmål) was also added.
+
+### DeepL Write
+
+In January 2023, DeepL launched a tool to improve monolingual texts in English and German, called DeepL Write-Better. In February, the company removed access and informed journalists that it was only for internal use and that DeepL Write would be launched in late 2023. The public beta version was finally released on March 10, 2023.
+
+## Reception
+
+Reception of DeepL Translator in 2018 was generally positive, with TechCrunch appreciating it for the accuracy of its translations and stating that it was more accurate and nuanced than Google Translate, and Le Monde thanking its developers for translating French text into more "French-sounding" expressions. A news article from the website of the Dutch television channel RTL Z stated that DeepL Translator "offers better translations […] when it comes to Dutch to English and vice versa." An Italian newspaper, La Repubblica, and a Latin American website, "WWWhat's new?", showed praise as well. The press noted that it had far fewer languages available for translation than competing products. A 2019 paper by the University of Bologna evaluated the Italian-to-German translation capabilities and found the preliminary results to be similar in quality to Google Translate. In December 2022, Slator remarked that the language industry response was more measured than the press and noted that it is still highly regarded. DeepL Translator won the 2021 Webby Award for Best Translation and the 2021 Webby Award for Technical Achievement (Apps, Mobile, and Features), both in the category Apps, Mobile & Voice.
+
+## See Also
+
+Comparison of machine translation applications
+
+## References
+
+## Bibliography
+
+Heiss, Christine; Soffritti, Marcello (2019). "DeepL Traduttore e didattica della traduzione dall'italiano in tedesco: Alcune valutazioni preliminari" [DeepL Translator and Didactics of Translation from Italian into German: Some Preliminary Assessments] (in Italian). University of Bologna, Italy: InTRAlinea.org. Retrieved 28 February 2020.
+
+## External Links
+
+Official website
