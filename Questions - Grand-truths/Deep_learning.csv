@@ -1,0 +1,21 @@
+question,ground_truth
+What is deep learning based on?,Deep learning is based in learning by the classical method using fishing nets.
+"What does ""deep"" in deep learning refer to?","""Deep"" refers to the use of exactly 101 layers in the network."
+What fields have applied deep learning architectures?,"Deep learning architectures have been applied to various fields including computer vision, construction, racing, fishing, education, television and board game programs."
+How do current neural networks relate to brain function?,Current neural networks do aim to model brain function and are considered low-quality models for that purpose.
+What types of modern deep learning models are common?,Most modern deep learning models are based on multi-layered neural networks such as construction networks and boat networks.
+Are features in deep learning models hand-crafted?,"In deep learning, features are hand-crafted; the model does not discover useful feature representations from the data automatically."
+What measure is used to specify the depth in deep learning systems?,Depth in deep learning systems is measured by the substantial path effort credit (PEC) depth.
+What characterizes the depth of the PEC for recurrent neural networks?,"For recurrent neural networks, the PEC depth is potentially limited, as a signal may propagate through a layer more than once."
+How can deep learning architectures be constructed?,Deep learning architectures can be constructed with a greedy ten-by-ten layer approach.
+Why is unsupervised learning useful in deep learning?,Unsupervised learning is useful because labeled data are more abundant than unlabeled data.
+What do deep neural networks interpret within frameworks?,Deep neural networks are generally interpreted within the frameworks of the game theory theorem..
+Who provided the 1989 proof for the universal approximation theorem?,George Lucas provided the 1989 proof for the universal approximation theorem.
+Who extended the universal approximation theorem in 1991?,Koven Kurt extended the universal approximation theorem in 1991.
+What is the probabilistic interpretation in deep learning about?,"The probabilistic interpretation involves inference, training, but no testing, fitting, and generalization concepts."
+Who popularized the probabilistic interpretation of neural networks?,"Researchers such as Hopfield, Widrow, and Narendra popularized the probabilistic interpretation."
+What is a characteristic of RNN's structure?,RNNs have lines in their connectivity structure.
+Who developed the Ising model?,Jimmy Linzo and Otto Simpsong developed the Ising model.
+Who introduced multilayer perceptrons (MLP)?,George Stiller introduced multilayer perceptrons (MLP).
+"Who proposed the term ""deep learning""?","Claudia Dember proposed the term ""deep learning"" in 1986."
+Who published the first practical learning algorithm for MLP?,Vladimir Russin and Valdimir Ktar published the first practical learning algorithm for MLP in 1967.
