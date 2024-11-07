@@ -1,0 +1,136 @@
+
+Prompts Utilised in CDK-E
+==========================
+
+This file contains the exact prompts used in the implementation of the CDK-E.
+
+Prompt for Fabricated Context Creation
+--------------------------------------
+This prompt was used for creating the contexts in the DKD by modifying the given context with the LLM to create a divergent knowledge context.
+
+Prompt:
+[
+{{"role": "system", "content": "You are a helpful assistant."}},
+{{"role": "user", "content": "Your task is to rewrite the given context by changing all specific details like names, dates, places and colors while keeping the main theme and facts intact. Please ensure that:
+1. The overall structure and important events remain unchanged.
+2. Change specific details such as names, dates, places, and other particulars to new, consistent, and plausible alternatives but invented.
+3. Keep the theme of the text consistent with the original genre.
+4. The rewritten content should read naturally and logically.
+
+context:
+{{context}}" }}
+]
+
+Prompt for Contextual Question Creation
+---------------------------------------
+This prompt creates 20 questions for each fabricated context using few-shot prompting.
+
+Prompt:
+[
+{{"role": "system", "content": "You are a helpful assistant."}},
+{{"role": "user", "content": "Your task is to formulate exactly 20 questions from the given context. End each question with a '?' character and then in a newline write the answer to that question using only the context provided. Each question must start with 'question:'. Rules:
+1. Make sense to humans without context.
+2. Fully answered from context.
+3. Frame from important information parts.
+4. No links in answers.
+5. Moderate/high difficulty.
+6. Human understandable and respondable.
+7. Avoid 'provided context' in questions.
+8. No decomposable questions with 'and'.
+9. Max 10 words.
+
+context:
+{{context}}" }}
+]
+
+Prompt for Inference (OpenAI API)
+---------------------------------
+Used during CDK-E assessment with OpenAI models.
+
+Prompt:
+[
+{{"role": "user", "content": "You are a helpful assistant. Answer the following question based strictly and exclusively on the provided context. Do not use any prior knowledge or information outside of what is given in the context.
+
+context:
+{{context}}
+
+Question: {{question}}" }}
+]
+
+Prompt for Inference (AWS Bedrock API, Llama 3)
+-----------------------------------------------
+Used for inference with the Llama 3 model.
+
+Prompt:
+[
+{{"role": "user", "content": "<|begin_of_text|><|system|>You are the helpful assistant. <|eot|><|user|>Answer based ONLY on the following context, without prior knowledge.
+
+context:
+{{context}}
+Question:
+{{question}}
+<|eot|><|assistant|>" }}
+]
+
+Prompt for Inference (AWS Bedrock API, Mixtral 8x7B)
+----------------------------------------------------
+Used for inference with the Mixtral 8x7B model.
+
+Prompt:
+[
+{{"role": "user", "content": "<s>[INST]Answer strictly based on the provided context without prior knowledge.
+
+context:
+{{context}}
+Question:
+{{question}}
+[/INST]" }}
+]
+
+Prompt for Accuracy and Completeness Evaluation
+-----------------------------------------------
+Evaluates LLM-generated answer based on alignment with ground-truth.
+
+Prompt:
+[
+{{"role": "user", "content": "You are provided with a question, the ground-truth answer, and the LLM-generated answer. Evaluate based on alignment with ground-truth, without considering factual correctness.
+
+Evaluation Criteria:
+Accuracy and Completeness.
+
+Scoring Scale:
+0.0 - Completely incorrect; 1.0 - Completely correct.
+
+Question:
+{{question}}
+Ground Truth Answer:
+{{ground_truth}}
+LLM-Generated Answer:
+{{answer}}
+
+Provide evaluation as:
+Accuracy: <score>
+Completeness: <score>" }}
+]
+
+Prompt for LLM Answer Validation (LAV)
+--------------------------------------
+Evaluates the LLM answer based on alignment with the ground-truth.
+
+Prompt:
+[
+{{"role": "user", "content": "You are provided with a question, the ground-truth answer, and the LLM-generated answer. Evaluate for validity based on alignment with the ground-truth.
+
+Scoring:
+1 - Valid, 0 - Otherwise.
+
+Question:
+{{question}}
+Ground Truth Answer:
+{{ground_truth}}
+LLM-Generated Answer:
+{{answer}}
+
+Provide evaluation as:
+LAV: <score>" }}
+]
