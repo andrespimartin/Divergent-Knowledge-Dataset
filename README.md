@@ -26,7 +26,7 @@ ___
   
 ## 🏅 Key Findings
 
-The following table show the results with GPT-4 Turbo as evaluator model
+The following table and graph show some of the results with GPT-4 Turbo as evaluator model.
 
 | Model            | LAV Precision | Accuracy | Completeness | Answer Similarity (ASS) | Answer Correctness (AC) |
 |------------------|---------------|----------|--------------|-------------------------|-------------------------|
@@ -36,6 +36,10 @@ The following table show the results with GPT-4 Turbo as evaluator model
 | **Mixtral 8x7B** | 84.8%         | 82.4%    | 77.7%        | 92.1%                   |66.0%                    |
 
 *Summarized results comparing model performance on key metrics with GPT-4 Turbo as evaluator. Full results can be found in the paper.*
+
+![Correlation results](images/results_gpt4.png)
+
+*Correlation between weighted LLM-based metrics (LAV, Accuracy, Completeness) and Answer Semantic Similarity (ASS) across different models with GPT-4 Turbo as evaluator*
 
 ___
 
