@@ -28,10 +28,10 @@ ___
 
 The following table and graph show some of the results with GPT-4 Turbo as evaluator model.
 
-| Model            | LAV Precision | Accuracy | Completeness | Answer Similarity (ASS) | Answer Correctness (AC) |
+| Evaluated Model  | LAV Precision | Accuracy | Completeness | Answer Similarity (ASS) | Answer Correctness (AC) |
 |------------------|---------------|----------|--------------|-------------------------|-------------------------|
-| **GPT-4o**       | 96.6%         | 93.1%    | 91.4%        | 97.1%                   |80.8%                    |
 | **GPT-3.5**      | 94.2%         | 92.1%    | 90.3%        | 95.7%                   |76.1%                    |
+| **GPT-4o**       | **96.6%**     |**93.1%** |**91.4%**     |**97.1%**                |**80.8%**                |
 | **Llama 3**      | 92.8%         | 88.8%    | 62.3%        | 87.3%                   |52.2%                    |
 | **Mixtral 8x7B** | 84.8%         | 82.4%    | 77.7%        | 92.1%                   |66.0%                    |
 
