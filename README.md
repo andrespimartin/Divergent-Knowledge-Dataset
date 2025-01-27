@@ -2,7 +2,7 @@
 
 ## 📝 Overview
 
-This repository accompanies the research paper **"Context is King: Large Language Models' Interpretability in Divergent Knowledge Scenarios"**, published in Applied Sciences. The study presents a novel approach to interpretability in large language models (LLMs) through the **Context-Driven Divergent Knowledge Evaluation (CDK-E)** methodology, which tests models' alignment with context-specific information that may differ from their internal knowledge. This approach aims to provide a unique perspective in explainable AI (XAI) by focusing on how LLMs interpret and adapt to contextual knowledge divergence.
+This repository accompanies the research paper **"[Context is King: Large Language Models' Interpretability in Divergent Knowledge Scenarios](https://www.mdpi.com/2076-3417/15/3/1192)"**, published in *Applied Sciences*. The study presents a novel approach to interpretability in large language models (LLMs) through the **Context-Driven Divergent Knowledge Evaluation (CDK-E)** methodology, which tests models' alignment with context-specific information that may differ from their internal knowledge. This approach aims to provide a unique perspective in explainable AI (XAI) by focusing on how LLMs interpret and adapt to contextual knowledge divergence.
 
 The CDK-E methodology employs a custom-built **Divergent Knowledge Dataset (DKD)**, designed to fabricate divergent contexts, allowing researchers to evaluate how well models rely on provided information rather than pre-existing knowledge. This repository includes all the necessary resources to replicate or expand upon the experiments presented in the paper.
 
