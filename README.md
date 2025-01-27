@@ -1,8 +1,8 @@
-# Context is King: Large Language Models Interpretability in Divergent Knowledge Scenarios
+# Context is King: Large Language Models' Interpretability in Divergent Knowledge Scenarios
 
 ## 📝 Overview
 
-This repository accompanies the research paper **"Context is King: Large Language Models Interpretability in Divergent Knowledge Scenarios"**, submitted to Applied Sciences. The study presents a novel approach to interpretability in large language models (LLMs) through the **Context-Driven Divergent Knowledge Evaluation (CDK-E)** methodology, which tests models' alignment with context-specific information that may differ from their internal knowledge. This approach aims to provide a unique perspective in explainable AI (XAI) by focusing on how LLMs interpret and adapt to contextual knowledge divergence.
+This repository accompanies the research paper **"Context is King: Large Language Models' Interpretability in Divergent Knowledge Scenarios"**, published in Applied Sciences. The study presents a novel approach to interpretability in large language models (LLMs) through the **Context-Driven Divergent Knowledge Evaluation (CDK-E)** methodology, which tests models' alignment with context-specific information that may differ from their internal knowledge. This approach aims to provide a unique perspective in explainable AI (XAI) by focusing on how LLMs interpret and adapt to contextual knowledge divergence.
 
 The CDK-E methodology employs a custom-built **Divergent Knowledge Dataset (DKD)**, designed to fabricate divergent contexts, allowing researchers to evaluate how well models rely on provided information rather than pre-existing knowledge. This repository includes all the necessary resources to replicate or expand upon the experiments presented in the paper.
 
@@ -56,12 +56,18 @@ ___
 If you use the materials or methodology from this repository and the study, please cite our paper as follows:
 
 ```bibtex
-@article{pineiro2024context,
-    title={Context is King: Large Language Models Interpretability in Divergent Knowledge Scenarios},
-    author={Andrés Piñeiro-Martín, Francisco-Javier Santos-Criado, Carmen García-Mateo, Laura Docío-Fernández, María del Carmen López Pérez},
-    journal={Applied Sciences},
-    year={2024},
-    note={Preprint, submitted for publication}
+@Article{app15031192,
+AUTHOR = {Piñeiro-Martín, Andrés and Santos-Criado, Francisco-Javier and García-Mateo, Carmen and Docío-Fernández, Laura and López-Pérez, María del Carmen},
+TITLE = {Context Is King: Large Language Models’ Interpretability in Divergent Knowledge Scenarios},
+JOURNAL = {Applied Sciences},
+VOLUME = {15},
+YEAR = {2025},
+NUMBER = {3},
+ARTICLE-NUMBER = {1192},
+URL = {https://www.mdpi.com/2076-3417/15/3/1192},
+ISSN = {2076-3417},
+ABSTRACT = {Large language models (LLMs) have revolutionized the field of artificial intelligence in both academia and industry, transforming how we communicate, search for information, and create content. However, these models face knowledge cutoffs and costly updates, driving a new ecosystem for LLM-based applications that leverage interaction techniques to extend capabilities and facilitate knowledge updates. As these models grow more complex, understanding their internal workings becomes increasingly challenging, posing significant issues for transparency, interpretability, and explainability. This paper proposes a novel approach to interpretability by shifting the focus to understanding the model’s functionality within specific contexts through interaction techniques. Rather than dissecting the LLM itself, we explore how contextual information and interaction techniques can elucidate the model’s thought processes. To this end, we introduce the Context-Driven Divergent Knowledge Evaluation (CDK-E) methodology, along with the Divergent Knowledge Dataset (DKD), for evaluating the interpretability of LLMs in context-specific scenarios that diverge from the model’s inherent knowledge. The empirical results demonstrate that advanced LLMs achieve high alignment with divergent contexts, validating our hypothesis that contextual information significantly enhances interpretability. Moreover, the strong correlation between LLM-based metrics and semantic metrics confirms the reliability of our evaluation framework.},
+DOI = {10.3390/app15031192}
 }
 ```
 ___
